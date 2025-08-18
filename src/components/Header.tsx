@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex items-center justify-center md:justify-between py-4">
           <Link href="/" className="flex items-center">
             <img 
-              src="/images/logo/logo.png" 
+              src="/logo.svg" 
               alt="Nachhilfeprofi Zürich" 
               className="h-20 w-auto"
             />

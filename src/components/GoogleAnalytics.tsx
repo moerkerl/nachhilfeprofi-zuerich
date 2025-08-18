@@ -4,7 +4,7 @@ import Script from 'next/script';
 import { useEffect } from 'react';
 import { initializeTracking } from '@/lib/tracking';
 
-const GA_ADS_ID = 'AW-16732398347'; // Google Ads ID für nachhilfeprofi-zuerich
+const GA_ADS_ID = 'AW-16764247259'; // Google Ads ID für nachhilfeprofi-zuerich
 
 export default function GoogleAnalytics() {
   useEffect(() => {

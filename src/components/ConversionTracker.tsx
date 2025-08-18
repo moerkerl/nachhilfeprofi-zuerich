@@ -3,8 +3,8 @@
 import { useEffect, useRef } from 'react'
 import { getStoredTrackingParams, getGoogleClickId } from '@/lib/tracking'
 
-const GA_ADS_ID = 'AW-16732398347'
-const CONVERSION_LABEL = 'P44WCMav44gbEIvG0Ko-'
+const GA_ADS_ID = 'AW-16764247259'
+const CONVERSION_LABEL = 'uZYNCJ6QhIkbENu56Lk-'
 
 export default function ConversionTracker() {
   const hasInitialized = useRef(false)
