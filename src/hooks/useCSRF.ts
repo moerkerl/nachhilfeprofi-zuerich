@@ -58,7 +58,11 @@ export function useCSRF(): CSRFHook {
 /**
  * Helper function to add CSRF token to request headers
  */
-export function addCSRFHeader(headers: HeadersInit, token: string): HeadersInit {
+export function addCSRFHeader(headers: HeadersInit, token: string | null): HeadersInit {
+  if (!token) {
+    return headers;
+  }
+  
   return {
     ...headers,
     'X-CSRF-Token': token,
