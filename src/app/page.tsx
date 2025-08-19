@@ -93,8 +93,8 @@ export default function Home() {
           }
           subtitle="Wir sind Ihre Experten für erfolgreiche Nachhilfe in Zürich. Wir helfen Ihnen, den perfekten Tutor zu finden, begleiten den gesamten Prozess und stellen sicher, dass Ihr Kind wirklich Fortschritte macht."
           buttonText="Jetzt professionelle Nachhilfe finden"
-          imageSrc="/images/Tutor_4_Klasse_hilft_Sohn_bei_den_Hausaufgaben_20250318_192534.jpg"
-          imageAlt="Die Nachhilfe-Profis für Zürich - Professionelle Betreuung"
+          imageSrc="/images/Beratungsgespräch_im_modernen_Büro_20250318_192326.jpg"
+          imageAlt="Professionelle Beratung - Die Nachhilfe-Profis für Zürich"
         />
 
         {/* Benefits */}
@@ -111,8 +111,8 @@ export default function Home() {
             'Wechselnde Ansprechpartner'
           ]}
           buttonText="Jetzt professionelle Beratung"
-          imageSrc="/images/fuenftklaessler-mathe-niedergeschlagen-frust-schreibtisch-alleine-mathe-helden.jpg"
-          imageAlt="Eltern bei der schwierigen Tutor-Auswahl"
+          imageSrc="/images/Unterstützung_beim_Lernen_zu_Hause_Mutter_Frustriert_20250318_192329.jpg"
+          imageAlt="Überforderte Eltern bei der Nachhilfe-Suche"
           imagePosition="left"
           backgroundColor="gray"
         />
