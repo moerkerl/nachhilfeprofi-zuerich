@@ -16,37 +16,37 @@ export default function Home() {
   
   const benefits = [
     {
-      icon: '🏠',
-      title: 'Privatunterricht zuhause oder online',
-      description: 'Flexible Nachhilfe in Zürich und Umgebung'
+      icon: '🔍',
+      title: 'Wir finden den richtigen Tutor',
+      description: 'Professionelle Auswahl passend zu Ihren Bedürfnissen'
     },
     {
-      icon: '👥',
-      title: 'Für alle Altersgruppen',
-      description: 'Von der Primarschule bis zur Universität'
+      icon: '🤝',
+      title: 'Wir begleiten den Prozess',
+      description: 'Kontinuierliche Betreuung für optimale Ergebnisse'
     },
     {
-      icon: '🎯',
-      title: 'Nachhaltige Erfolge feiern',
-      description: 'Langfristige Verbesserung und echte Lernerfolge'
+      icon: '📈',
+      title: 'Wir garantieren Erfolg',
+      description: 'Messbare Fortschritte und nachhaltige Verbesserung'
     }
   ]
 
   const steps = [
     {
       number: 1,
-      title: 'Auf "Jetzt Nachhilfe finden" klicken',
-      description: 'Beantworten Sie online einige kurze Fragen um potentielle Nachhilfe-Tutoren in Zürich zu identifizieren.'
+      title: 'Kostenlose Bedarfsanalyse',
+      description: 'Unser Experten-Team analysiert die Bedürfnisse Ihres Kindes und definiert klare Lernziele für nachhaltigen Erfolg.'
     },
     {
       number: 2,
-      title: 'Strategiegespräch führen',
-      description: 'Zusammen mit einem Lernstrategen erstellen Sie einen Plan, um im Rahmen ihres Budgets die gewünschten Ergebnisse zu erzielen.'
+      title: 'Profi-Matching & Strategieplan',
+      description: 'Wir wählen den perfekten Tutor aus unserem Netzwerk aus und entwickeln eine maßgeschneiderte Lernstrategie.'
     },
     {
       number: 3,
-      title: 'Lektionen starten. Erfolge feiern',
-      description: 'Nach einer unverbindlichen Probelektion setzt unser Team den Plan um und verbessert die akademischen Fähigkeiten und das Selbstvertrauen des Schülers.'
+      title: 'Begleitete Umsetzung & Erfolgskontrolle',
+      description: 'Kontinuierliche Betreuung, regelmäßige Fortschrittskontrollen und Anpassungen bis zum gewünschten Ergebnis.'
     }
   ]
 
@@ -84,17 +84,17 @@ export default function Home() {
         <LPHero
           title={
             <>
-              <span className="inline-block">In wenigen Klicks zum</span>{' '}
-              <span className="inline-block">
-                <AnimatedText text="richtigen Nachhilfe-Lehrer" />
+              <span className="inline-block">Die</span>{' '}
+              <span className="inline-block text-[#7C3AED] font-bold">
+                <AnimatedText text="Nachhilfe-Profis" />
               </span>{' '}
-              <span className="inline-block">in Zürich</span>
+              <span className="inline-block">für Zürich</span>
             </>
           }
-          subtitle="Erhalten Sie sofort eine Auswahl geprüfter Lehrer aus Zürich und Umgebung – passend zu den Bedürfnissen Ihres Kindes."
-          buttonText="Jetzt Nachhilfe in Zürich finden"
+          subtitle="Wir sind Ihre Experten für erfolgreiche Nachhilfe in Zürich. Wir helfen Ihnen, den perfekten Tutor zu finden, begleiten den gesamten Prozess und stellen sicher, dass Ihr Kind wirklich Fortschritte macht."
+          buttonText="Jetzt professionelle Nachhilfe finden"
           imageSrc="/images/Tutor_4_Klasse_hilft_Sohn_bei_den_Hausaufgaben_20250318_192534.jpg"
-          imageAlt="Professionelle Nachhilfe mit qualifizierten Tutoren in Zürich"
+          imageAlt="Die Nachhilfe-Profis für Zürich - Professionelle Betreuung"
         />
 
         {/* Benefits */}
@@ -102,17 +102,17 @@ export default function Home() {
 
         {/* Problem Section */}
         <LPSection
-          title="Angst den Anschluss zu verlieren?"
-          content=""
+          title="Nachhilfe gesucht, aber überfordert mit der Auswahl?"
+          content="Die meisten Eltern kennen das Problem: Unzählige Anbieter, aber welcher ist wirklich gut? Wir nehmen Ihnen diese Entscheidung ab."
           bulletPoints={[
-            'Schlechtes Lernverhalten',
-            'Geringes akademisches Selbstbewusstsein',
-            'Kein Ausschöpfen des vollen Potentials',
-            'Abschluss nicht geschafft'
+            'Zu viele Anbieter, keine Orientierung',
+            'Unsicherheit über Qualität der Tutoren',
+            'Kein Follow-up nach Vermittlung',
+            'Wechselnde Ansprechpartner'
           ]}
-          buttonText="Jetzt Nachhilfe in Zürich finden"
+          buttonText="Jetzt professionelle Beratung"
           imageSrc="/images/fuenftklaessler-mathe-niedergeschlagen-frust-schreibtisch-alleine-mathe-helden.jpg"
-          imageAlt="Schüler mit Lernfrust und Schwierigkeiten"
+          imageAlt="Eltern bei der schwierigen Tutor-Auswahl"
           imagePosition="left"
           backgroundColor="gray"
         />
@@ -127,16 +127,16 @@ export default function Home() {
                   Die Perspektiven verbessern
                 </p>
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-                  Mit uns den Neustart in Zürich schaffen
+                  Deshalb sind wir die Profis für Nachhilfe in Zürich
                 </h2>
                 <p className="text-lg text-gray-600">
-                  Wir lehren, wie man lernt. Nicht nur, wie man Klausuren schreibt. Speziell in Zürich und der nahen Umgebung.
+                  Wir übernehmen die komplette Verantwortung - von der Tutor-Auswahl bis zum messbaren Erfolg. Sie haben einen Ansprechpartner für alles.
                 </p>
                 <button 
                   onClick={() => router.push('/lehrer-finden')}
                   className="bg-[#7C3AED] text-white px-8 py-4 rounded-lg hover:bg-[#6D28D9] transition-colors font-semibold shadow-lg cursor-pointer"
                 >
-                  Jetzt Nachhilfe in Zürich finden
+                  Jetzt Profi-Service starten
                 </button>
               </div>
 
@@ -192,20 +192,20 @@ export default function Home() {
 
         {/* 3 Steps */}
         <LPSteps
-          title="In 3 Schritten zu akademischem Erfolg in Zürich"
+          title="So funktioniert unser Profi-Service"
           steps={steps}
-          ctaText="Jetzt Nachhilfe in Zürich finden"
+          ctaText="Jetzt kostenlose Beratung starten"
         />
 
         {/* Testimonials */}
         <LPTestimonial
-          title="Was andere Eltern aus Zürich meinen"
+          title="Was Eltern über unseren Profi-Service sagen"
           testimonials={testimonials}
         />
 
         {/* Offers */}
         <LPOffers
-          title="Unsere Angebote in Zürich"
+          title="Unsere Expertenbereiche"
           offers={offers}
         />
 
@@ -235,7 +235,7 @@ export default function Home() {
                 onClick={() => router.push('/lehrer-finden')}
                 className="bg-[#7C3AED] text-white px-8 py-4 rounded-lg hover:bg-[#6D28D9] transition-colors font-semibold text-lg shadow-lg cursor-pointer"
               >
-                Jetzt Nachhilfe in Zürich finden
+                Jetzt den Profi-Service starten
               </button>
             </div>
           </div>
